@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  web:
+    build: ./.build/web/
+    container_name: web
+    ports:
+    - 8888:80
+    volumes:
+    - .:/var/www/html
+    environment:
+      APP_ENV: development
+      VIRTUAL_HOST: salaries.local
+      VIRTUAL_PORT: 80
