@@ -1,4 +1,21 @@
-# Salary Analyzer
+## Salary Analyzer
+
+* Introduction
+  - Build an application which will calculate salary for employees.
+  - Build an expandable system of bonuses or deductions.
+  - Beep in mind OOP, software design patterns, code architecture, tests and accuracy in implementation during developing.
+
+* Conditions
+   - Country Tax for salaries is 20%
+   - If an employee older than 50 we want to add 7% to his salary.
+   - If an employee has more than 2 kids we want to decrease his Tax by 2%.
+   - If an employee wants to use a company car we need to deduct $500.
+   
+* Initial data
+
+   - Alice is 26 years old, she has 2 kids and her salary is $6k
+   - Bob is 52, he is using a company car and his salary is $4k
+   - Charlie is 36, he has 3 kids, company car and his salary is $5k
 
 ## Installation
 ## Docker Installation
